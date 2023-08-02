@@ -85,10 +85,18 @@ body {
   .container:nth-child(3) {
     display: none;
   }
+
+  .container:nth-child(2) {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 600px) {
   .container:nth-child(2) {
     display: none;
+  }
+
+  .container:nth-child(1) {
+    margin-right: 0;
   }
 }
